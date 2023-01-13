@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form Page</title>
+    <style>
+        body{
+            background: rgba(109, 2, 52, 0.438);
+        }
+        .contact-form{
+            max-width: 350px;
+            margin: auto;
+            border-radius: 5px;
+            background: rgba(240, 245, 240, 0.925);
+            padding: 20px;
+        }
+        input [type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #fff;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type=submit] {
+            width: 90%;
+            background: rgb(17, 3, 143);
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input [type=submit]:hover{
+            background: #000;
+        }
+    </style>
+</head>
+<body>
+<div class="contact-form">
+ <form>
+<label for="name"> Name</label>
+<input type="text" name="full name" placeholder="Your Name">
+<label for="Email"> Email</label>
+<input type="text" name="Your Email" placeholder="Your Email">
+<label for="Message">Message</label>
+<select id="Message">
+    <option value="Message">Enter your Name</option>
+    <option value="Message">Enter your Email</option>
+    <option value="Message">Enter your Message</option>
+</select>
+<input type="Submit" value="Submit">
+ </form>    
+</div>   
+</body>
+</html>
